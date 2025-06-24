@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: blog-backend
+    env: node
+    branch: main
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: MONGO_URI
+        fromDatabase:
+          name: mongodb
+          key: connectionString
+      - key: JWT_SECRET
+        value: your_production_secret
