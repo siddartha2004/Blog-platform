@@ -12,7 +12,7 @@ A simple blog platform built with modern web technologies, allowing users to cre
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** next.js,TypeScript (or React/Vue if applicable)
+- **Frontend:** Next.js,TypeScript (or React/Vue if applicable)
 - **Backend:** Node.js, Express.js (or Django/Flask)
 - **Database:** MongoDB / PostgreSQL / MySQL
 - **Authentication:** JWT / OAuth / Session-based auth
